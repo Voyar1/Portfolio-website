@@ -149,6 +149,7 @@ header.active {
 .menu {
   display: flex;
   flex-direction: column;
+  list-style: none;
   justify-content: space-around;
   text-align: center;
   font-size: 1.8rem;
@@ -161,7 +162,7 @@ header.active {
   left: 0;
   top: 0;
   transform: translateX(100%);
-  transition: all 1s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .menu-link {
