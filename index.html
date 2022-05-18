@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Portfolio Website</title>
+  </head>
+  <body>
+    <header class="active">
+      <div>
+        <img src="images/Logo.svg" alt="website-logo" />
+      </div>
+      <ul class="menu">
+        <li data-key="home" class="menu-link">Home</li>
+        <li data-key="projects" class="menu-link">Projects</li>
+        <li data-key="about" class="menu-link">About me</li>
+        <li data-key="contact" class="menu-link">Contact</li>
+      </ul>
+      <button class="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </header>
+
+    <!-- CALL TO ACTION SECTION -->
+
+    <section class="home">
+      <img
+        class="home-image"
+        src="./images/LandingHero.gif"
+        alt="landing-image"
+      />
+      <div class="home-content">
+        <h1>Arkadiusz Wojciechowski</h1>
+        <span>Future Frontend Developer</span>
+        <div class="home-icons">
+          <a
+            href="https://www.linkedin.com/in/arkadiusz-wojciechowski-098047224/"
+            target="_blank"
+            ><img src="images/icons/linkedin.svg" alt="linkedin-icon"
+          /></a>
+          <a href="/"
+            ><img src="images/icons/GithubIcon.svg" alt="github-icon"
+          /></a>
+        </div>
+      </div>
+      <button class="scroll-down-button">
+        <div class="scroll-down-circle"></div>
+      </button>
+    </section>
+
+    <!-- Projects -->
+    <main class="projects">
+      <div class="section-title">
+        <p class="section-title-main">Proj</p>
+        <span class="section-title-sub">ects</span>
+      </div>
+      <div class="project-content">
+        <div class="project-content-card">
+          <img src="./images/projects/first-project.svg" alt="project-image" />
+          <div class="project-info">
+            <p class="project-name">Custom Portfolio Page</p>
+            <a href="/" class="project-link">
+              <img src="./images/icons/code.svg" alt="code-icon" />
+            </a>
+          </div>
+          <p class="project-description">
+            Custom Portfolio Page. Practice using CSS. Working with variables
+            and media queries. Practice writing clean code.
+          </p>
+          <div class="project-technologies">
+            <p class="technologies-title">Technologies used</p>
+          </div>
+          <div class="technologies-icons">
+            <img src="./images/icons/html5.svg" alt="html-icon" />
+            <img src="./images/icons/css3.svg" alt="css3-icon" />
+            <img src="./images/icons/javascript-svgrepo-com.svg"
+            alt=javascript-icon"">
+          </div>
+        </div>
+
+        <div class="project-content-card">
+          <img src="./images/projects/second-project.svg" alt="project-image" />
+          <div class="project-info">
+            <p class="project-name">Marketing website</p>
+            <a href="/" class="project-link">
+              <img src="./images/icons/code.svg" alt="code-icon" />
+            </a>
+          </div>
+          <p class="project-description">
+            Working with advanced DOM events. The project was to consolidate
+            knowledge from the JavaScript course.
+          </p>
+          <div class="project-technologies">
+            <p class="technologies-title">Technologies used</p>
+          </div>
+          <div class="technologies-icons">
+            <img src="./images/icons/html5.svg" alt="html-icon" />
+            <img src="./images/icons/css3.svg" alt="css3-icon" />
+            <img src="./images/icons/javascript-svgrepo-com.svg"
+            alt=javascript-icon"">
+          </div>
+        </div>
+
+        <!-- <div class="project-content-card">
+          <img src="./images/projects/third-project.svg" alt="project-image" />
+          <div class="project-info">
+            <p class="project-name">Coming soon</p>
+            <a href="/" class="project-link">
+              <img src="./images/icons/code.svg" alt="code-icon" />
+            </a>
+          </div>
+          <p class="project-description"></p>
+          <div class="project-technologies">
+            <p class="technologies-title">Technologies used</p>
+          </div>
+          <div class="technologies-icons">
+            <img src="./images/icons/vue-svgrepo-com.svg" alt="vue-icon" />
+            <img
+              src="./images/icons/laravel-svgrepo-com.svg"
+              alt="laravel-icon"
+            />
+            <img src="./images/icons/javascript-svgrepo-com.svg"
+            alt=javascript-icon"">
+          </div>
+        </div>
+
+        <div class="project-content-card">
+          <img src="./images/projects/fourth-project.svg" alt="project-image" />
+          <div class="project-info">
+            <p class="project-name">Coming soon</p>
+            <a href="/" class="project-link">
+              <img src="./images/icons/code.svg" alt="code-icon" />
+            </a>
+          </div>
+          <p class="project-description"></p>
+          <div class="project-technologies">
+            <p class="technologies-title">Technologies used</p>
+          </div>
+          <div class="technologies-icons">
+            <img src="./images/icons/vue-svgrepo-com.svg" alt="vue-icon" />
+            <img
+              src="./images/icons/laravel-svgrepo-com.svg"
+              alt="laravel-icon"
+            />
+            <img src="./images/icons/javascript-svgrepo-com.svg"
+            alt=javascript-icon"">
+          </div>
+        </div> -->
+      </div>
+    </main>
+
+    <!-- ABOUT -->
+    <article class="about">
+      <div>
+        <div class="section-title">
+          <p class="section-title-main">Who</p>
+          <span class="section-title-sub">am I?</span>
+        </div>
+        <p class="about-description">
+          Over the past year I have made an important decision to rebrand
+          myself. My goal is to get my first job as a Junior Frontend
+          Developer.I realize the amount of knowledge that needs to be acquired,
+          so I am taking time every day to learn the required technologies
+          <span class="about-quote"
+            >"Hard work beats talent when talent fails to work hard." - Tim
+            Notke
+          </span>
+        </p>
+      </div>
+      <img src="./images/AboutHero.gif" alt="about-image" />
+    </article>
+    <!-- TECHNOLOGIES -->
+    <section class="technologies-container">
+      <div class="section-title">
+        <p class="section-title-main">Tech</p>
+        <span class="section-title-sub">nologies</span>
+      </div>
+      <section class="technologies-content">
+        <div class="technologies-item">
+          <img
+            src="./images/icons/javascript-svgrepo-com.svg"
+            alt="javascript-icon"
+          />
+          <p class="technologies-item-title">JavaScript</p>
+        </div>
+        <div class="technologies-item">
+          <img src="./images/icons/html5.svg" alt="javascript-icon" />
+          <p class="technologies-item-title">HTML</p>
+        </div>
+        <div class="technologies-item">
+          <img src="./images/icons/css3.svg" alt="javascript-icon" />
+          <p class="technologies-item-title">CSS</p>
+        </div>
+        <div class="technologies-item">
+          <img src="./images/icons/sass.svg" alt="javascript-icon" />
+          <p class="technologies-item-title">SASS</p>
+        </div>
+        <div class="technologies-item">
+          <img src="./images/icons/GitHub.svg" alt="javascript-icon" />
+          <p class="technologies-item-title">GitHub</p>
+        </div>
+        <div class="technologies-item">
+          <img src="./images/icons/Git-icon.png" alt="javascript-icon" />
+          <p class="technologies-item-title">GitHub</p>
+        </div>
+      </section>
+    </section>
+
+    <!-- CONTACT -->
+    <div class="section-title">
+      <p class="section-title-main">Send Me a</p>
+      <span class="section-title-sub">Message</span>
+    </div>
+    <section class="contact">
+      <img src="./images/Mail.gif" alt="mail image" />
+      <form
+        class="contact-form"
+        action="mailto:someone@example.com"
+        method="post"
+      >
+        <div class="contact-form-field">
+          <label for="name">Name</label>
+          <input type="text" name="name" required />
+        </div>
+        <div class="contact-form-field">
+          <label for="email">Email</label>
+          <input type="text" name="name" required />
+        </div>
+        <div class="contact-form-field">
+          <label for="message">Name</label>
+          <textarea
+            id="message-text"
+            name="message"
+            cols="30"
+            rows="8"
+          ></textarea>
+        </div>
+        <button class="contact-form-btn" type="send">Submit</button>
+      </form>
+    </section>
+    <footer>
+      Copyright &copy; 2022 Arkadiusz Wojciechowski. Made for learing purposes.
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
